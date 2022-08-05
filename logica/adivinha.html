@@ -1,0 +1,27 @@
+<meta charset="utf-8" />
+
+<script>
+  function pularLinha() {
+    document.write('<br>')
+  }
+
+  function mostrar(texto) {
+    document.write(texto)
+    pularLinha()
+  }
+
+  var numAleatorio = Math.round(Math.random() * 10)
+
+  var tentativas = 1
+  while (tentativas <= 3) {
+    var chute = parseInt(prompt('Digite seu chute: '))
+
+    if (chute == numAleatorio) {
+      mostrar('Você acertou!')
+      break
+    } else {
+      mostrar('Você errou!')
+    }
+    tentativas++
+  }
+</script>
