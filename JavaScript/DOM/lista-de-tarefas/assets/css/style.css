@@ -8,23 +8,21 @@ body {
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
-  background-color: #15404e;
 }
 
 .todo-list {
-  background-color: #0b2027;
-  font-family: 'Space Mono', monospace;
+  background-color: #0B2027;
+  font-family: "Space Mono", monospace;
   padding: 1rem;
   min-width: 400px;
   min-height: 300px;
-  border-radius: 10px;
 }
 
 .title {
   border-bottom: 1px solid rgba(246, 241, 209, 0.5);
   font-size: 1.5rem;
-  font-family: 'BioRhyme', serif;
-  color: #f6f1d1;
+  font-family: "BioRhyme", serif;
+  color: #F6F1D1;
 }
 
 .form {
@@ -41,20 +39,20 @@ body {
 
 .form-input {
   outline: none;
-  background-color: #f6f1d1;
+  background-color: #F6F1D1;
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 .form-button {
   border: 1px;
-  background: #f6f1d1;
+  background: #F6F1D1;
   text-transform: uppercase;
   cursor: pointer;
   margin-left: 0.25rem;
 }
 
 .form-button:hover {
-  color: #f6f1d1;
+  color: #F6F1D1;
   background: rgba(246, 241, 209, 0.1);
 }
 
@@ -71,8 +69,8 @@ body {
 }
 
 .todo-list {
-  background-color: #0b2027;
-  font-family: 'Space Mono', monospace;
+  background-color: #0B2027;
+  font-family: "Space Mono", monospace;
   padding: 1rem;
   min-width: 400px;
   min-height: 300px;
@@ -81,34 +79,33 @@ body {
 .title {
   border-bottom: 1px solid rgba(246, 241, 209, 0.5);
   font-size: 1.5rem;
-  font-family: 'BioRhyme', serif;
-  color: #f6f1d1;
+  font-family: "BioRhyme", serif;
+  color: #F6F1D1;
 }
 
 .form {
   display: flex;
   justify-content: center;
 }
-.form-input,
-.form-button {
+.form-input, .form-button {
   border-radius: 0;
   padding: 0.75rem;
   font-size: 0.75rem;
 }
 .form-input {
   outline: none;
-  background-color: #f6f1d1;
+  background-color: #F6F1D1;
   border-color: rgba(255, 255, 255, 0.1);
 }
 .form-button {
   border: 1px;
-  background: #f6f1d1;
+  background: #F6F1D1;
   text-transform: uppercase;
   cursor: pointer;
   margin-left: 0.25rem;
 }
 .form-button:hover {
-  color: #f6f1d1;
+  color: #F6F1D1;
   background: rgba(246, 241, 209, 0.1);
 }
 
@@ -120,16 +117,15 @@ body {
 
 .task {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #f6f1d1;
+  color: #F6F1D1;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
   padding: 1rem 3rem;
 }
 
-.check-button,
-.delete-button {
-  background-color: #f6f1d1;
+.check-button, .delete-button {
+  background-color: #F6F1D1;
   border: none;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   outline: none;
@@ -138,8 +134,8 @@ body {
 }
 
 .task.done .check-button {
-  background-color: #46494c;
-  color: #f6f1d1;
+  background-color: #46494C;
+  color: #F6F1D1;
 }
 
 .check-icon {
@@ -152,7 +148,7 @@ body {
 }
 
 .task.done .check-icon {
-  background-color: #0b2027;
+  background-color: #0B2027;
 }
 
 .content {
